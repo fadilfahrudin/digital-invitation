@@ -1,0 +1,40 @@
+// Color variables
+$color-light-100: #fff;
+$color-light-50: #d9d9d9;
+$color-dark-100: #1e1e1e;
+$color-dark-50: #404040;
+$color-dark-25: #62605c;
+$color-yellow: #ffce31;
+$color-green-100: #496b4e;
+$color-green-50: #20b038;
+$color-green-25: #60d66a;
+$color-pink-100: #ad2465;
+$color-pink-50: #d82d7e;
+$color-pink-25: rgba(216, 45, 126, 0.3);
+
+$gradient-pink: linear-gradient(
+  87deg,
+  #d82d7e 32.78%,
+  rgba(164, 86, 123, 0.7) 146.84%
+);
+
+$gradient-green: linear-gradient(
+  87deg,
+  #20b038 32.78%,
+  rgba(32, 176, 56, 0) 146.84%
+);
+
+// Font variables color
+$text-dark-100: $color-dark-100;
+$text-dark-50: $color-dark-50;
+$text-dark-25: $color-dark-25;
+$text-light-100: $color-light-100;
+$text-light-50: $color-light-50;
+$text-yellow: $color-yellow;
+$text-pink-100: $color-pink-100;
+$text-pink-50: $color-pink-50;
+
+// Background color variables
+$bg-dark: $color-dark-100;
+$bg-light: $color-light-100;
+$bg-green: $color-green-100;

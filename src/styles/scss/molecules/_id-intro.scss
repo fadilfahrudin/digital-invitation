@@ -1,0 +1,25 @@
+@include media.mobile {
+  #intro {
+    background-color: red;
+  }
+}
+@include media.desktop {
+  #intro {
+    min-height: 200vh;
+    span {
+      text-align: center;
+      font-family: "Montagu Slab", serif;
+      font-size: 146px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      &:first-child {
+        color: $text-dark-50;
+      }
+
+      &:last-child {
+        color: $text-dark-100;
+      }
+    }
+  }
+}

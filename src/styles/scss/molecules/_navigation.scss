@@ -1,0 +1,45 @@
+@include media.mobile {
+  nav {
+    background-color: red;
+  }
+}
+
+@include media.desktop {
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 20px;
+
+    .brand {
+      font-family: "Montagu Slab", serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    ul {
+      display: flex;
+      gap: 32px;
+      .nav-link {
+        font-family: "Montagu Slab", serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $text-dark-100;
+      }
+      &:last-child {
+        .nav-link {
+          color: $text-dark-25;
+        }
+      }
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+}

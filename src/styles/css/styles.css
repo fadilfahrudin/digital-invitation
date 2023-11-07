@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Montagu Slab";
+  src: url(../../assets/fonts/Montagu_Slab/static/MontaguSlab_24pt-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url(../../assets/fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf) format(truetype);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montagu Slab", serif;
+}
+
+p {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+@media (min-width: 1077px) {
+  h1 {
+    font-size: 148px;
+    font-weight: bold;
+    line-height: normal;
+  }
+  h2 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: normal;
+  }
+  h3 {
+    font-size: 40px;
+    line-height: normal;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 32px;
+    line-height: normal;
+    font-weight: bold;
+  }
+}
+@media (max-width: 1076px) {
+  nav {
+    background-color: red;
+  }
+}
+@media (min-width: 1077px) {
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 20px;
+  }
+  nav .brand {
+    font-family: "Montagu Slab", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  nav ul {
+    display: flex;
+    gap: 32px;
+  }
+  nav ul .nav-link {
+    font-family: "Montagu Slab", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #1e1e1e;
+  }
+  nav ul:last-child .nav-link {
+    color: #62605c;
+  }
+  nav ul.hidden {
+    display: none;
+  }
+}
+@media (max-width: 1076px) {
+  #intro {
+    background-color: red;
+  }
+}
+@media (min-width: 1077px) {
+  #intro {
+    min-height: 200vh;
+  }
+  #intro span {
+    text-align: center;
+    font-family: "Montagu Slab", serif;
+    font-size: 146px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #intro span:first-child {
+    color: #404040;
+  }
+  #intro span:last-child {
+    color: #1e1e1e;
+  }
+}/*# sourceMappingURL=styles.css.map */
